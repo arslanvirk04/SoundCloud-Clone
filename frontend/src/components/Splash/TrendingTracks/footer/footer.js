@@ -8,7 +8,7 @@ const Footer = () => {
                     {/* Your App Logo */}
                     <div className="mb-4">
                         <a href="#" className="my-4 mx-auto">
-                            <img src="./recordlabellogo.png" alt="" className="h-16" style={{ width: "150px" }} />
+                            <img src="./calisomniaLogo.png" alt="" className="h-11" style={{ width: "165px" }} />
                         </a>
                     </div>
                 </div>
@@ -16,9 +16,9 @@ const Footer = () => {
                     <h3 className="text-xl font-bold mb-4">Quick Links</h3>
                     <ul className="text-sm">
                         <li><a href="/" className="text-gray-300 hover:text-white">Home</a></li>
-                        <li><a href="/about" className="text-gray-300 hover:text-white">About</a></li>
-                        <li><a href="/services" className="text-gray-300 hover:text-white">Services</a></li>
-                        <li><a href="/contact" className="text-gray-300 hover:text-white">Contact</a></li>
+                        <li><a href="/aboutUs" className="text-gray-300 hover:text-white">About</a></li>
+                        {/* <li><a href="/services" className="text-gray-300 hover:text-white">Services</a></li>
+                        <li><a href="/contact" className="text-gray-300 hover:text-white">Contact</a></li> */}
                     </ul>
                 </div>
                 <div>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-xl font-bold mb-4">Follow Us</h3>
                     <div className="flex items-center space-x-4">
-                        <a href="#" className="text-gray-300 hover:text-white">
+                        <a href="https://www.facebook.com/calisomnia" className="text-gray-300 hover:text-white">
                             <i className="fab fa-facebook-f"></i>
                         </a>
                         <a href="#" className="text-gray-300 hover:text-white">
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="mt-20 text-center">
-                <p>&copy; {new Date().getFullYear()} Inteliwaretech. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} calisomnia. All rights reserved.</p>
             </div>
         </footer>
     );

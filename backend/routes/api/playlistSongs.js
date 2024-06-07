@@ -2,7 +2,7 @@ const express = require('express');
 const { addSongToPlaylist, getSongsInPlaylist } = require('../../service/playlistSongs');
 const router = express.Router();
 
-router.post('/add', async (req, res) => {
+router.post('/add-song-to-playlist', async (req, res) => {
   const { playlistId, songId } = req.body;
 
   try {
@@ -15,7 +15,7 @@ router.post('/add', async (req, res) => {
   }
 });
 
-router.get('/getAll', async (req, res) => {
+router.get('/getAllPlaylistSongs', async (req, res) => {
   try {
     const response = await getSongsInPlaylist();
     return res.json(response);

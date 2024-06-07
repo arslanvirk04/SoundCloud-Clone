@@ -8,11 +8,8 @@ function SectionLiked({ title, more, items }) {
     return (
         <section className="">
             <Title title={title} more={more} />
-            <div className="text-white gap-4">
+            <div className="text-white gap-4 pb-16">
                 <SongItemLiked />
-
-                {/* {items.map(item => ( */}
-                {/* ))} */}
             </div>
         </section>
     );
