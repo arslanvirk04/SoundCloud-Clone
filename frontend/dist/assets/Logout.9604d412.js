@@ -1,0 +1,1 @@
+import{u as e,d as s,r,c,a0 as u}from"./index.ed1e7a57.js";const i=()=>{const o=e(),t=s.useHistory();return r.exports.useEffect(()=>{(async()=>{try{o(u()),t.push("/")}catch(a){console.error("Logout failed:",a),alert("Failed to logout. Please try again.")}})()},[o]),c("div",{children:"Logging out..."})};export{i as default};
